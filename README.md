@@ -1,4 +1,4 @@
-# SPE11 corrected cross-scale plume forecasting
+# SPE11 cross-scale plume forecasting
 
 Research snapshot for SPE11A-to-SPE11B binary plume forecasting with an
 11-channel U-Net. This repository contains corrected experiment code, fixed
