@@ -1,0 +1,218 @@
+{
+  "scenario": "S000",
+  "figures": [
+    "261116_Fig02_corrected_raw_dSg_evolution",
+    "261116_Fig03_corrected_target_construction"
+  ],
+  "threshold": 0.001,
+  "domains": [
+    {
+      "name": "SPE11A",
+      "Lx": 2.8,
+      "Lz": 1.2,
+      "scale": 1.0,
+      "unit": "m",
+      "timeunit": "h",
+      "times": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "native": [
+        55,
+        1,
+        74
+      ],
+      "report": [
+        120,
+        280
+      ],
+      "injection_keyword": "COMPDAT",
+      "injectors": [
+        {
+          "label": "1",
+          "ijk": [
+            18,
+            1,
+            63
+          ],
+          "x_m": 0.8866666555404663,
+          "z_elevation_m": 0.29523808956146236,
+          "nominal_x_m": 0.9,
+          "nominal_z_m": 0.3
+        },
+        {
+          "label": "2",
+          "ijk": [
+            36,
+            1,
+            26
+          ],
+          "x_m": 1.70333331823349,
+          "z_elevation_m": 0.7054944902658462,
+          "nominal_x_m": 1.7,
+          "nominal_z_m": 0.7
+        }
+      ],
+      "case": "spe11a",
+      "npz": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11a/S000.npz"
+    },
+    {
+      "name": "SPE11B",
+      "Lx": 8400.0,
+      "Lz": 1200.0,
+      "scale": 1000.0,
+      "unit": "km",
+      "timeunit": "yr",
+      "times": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "native": [
+        83,
+        1,
+        58
+      ],
+      "report": [
+        60,
+        420
+      ],
+      "injection_keyword": "SOURCE",
+      "injectors": [
+        {
+          "label": "1",
+          "ijk": [
+            23,
+            1,
+            49
+          ],
+          "x_m": 2680.0,
+          "z_elevation_m": 305.0688934326172,
+          "nominal_x_m": 2700.0,
+          "nominal_z_m": 300.0
+        },
+        {
+          "label": "2",
+          "ijk": [
+            53,
+            1,
+            26
+          ],
+          "x_m": 5080.0,
+          "z_elevation_m": 693.8492279052734,
+          "nominal_x_m": 5100.0,
+          "nominal_z_m": 700.0
+        }
+      ],
+      "case": "spe11b",
+      "npz": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11b/S000.npz"
+    }
+  ],
+  "geometry_mapping": [
+    {
+      "case": "spe11a",
+      "scenario_id": "S000",
+      "mapping_key": "5dd23c3db18a8c5ae799015288f78464a6533da9044043bf915bffcad97644c3",
+      "native_nx": 55,
+      "native_ny": 1,
+      "native_nz": 74,
+      "native_active_cells": 3917,
+      "report_nx": 280,
+      "report_nz": 120,
+      "report_active_native_centers": 3807,
+      "EGRID_deck_center_max_abs_error_m": 6.35782879676583e-08
+    },
+    {
+      "case": "spe11b",
+      "scenario_id": "S000",
+      "mapping_key": "414cd51a663703bf57e246efae13c22f7cfa5d2a10f91f8bdd91c62ac8528e04",
+      "native_nx": 83,
+      "native_ny": 1,
+      "native_nz": 58,
+      "native_active_cells": 4812,
+      "report_nx": 420,
+      "report_nz": 60,
+      "report_active_native_centers": 3871,
+      "EGRID_deck_center_max_abs_error_m": 0.0
+    }
+  ],
+  "sources_sha256": {
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11a/S000.npz": "393950a4d157b894a56ae3253999e502336baa7538bb60d730bca7ab447dc77d",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11a/S000/deck/S000.DATA": "d49f4da162e2507f86bbefa267315a907a13732493829becf3e261f65023721d",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/inputs/S000/spe11a_S000.txt": "d2069227c78a53bf85e9425ab817d5cf5df136c2a1b3737b047acdf2e635e07e",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11a/S000/flow/S000.EGRID": "121da5ead1cefd6ca105c1803303ed724521874bdcc56d3069f64608b5a8846c",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11a/S000/flow/S000.INIT": "6aa00028f892d06b68b3d555e4d14fc0c3e864f896a96125d9134beb9c306af4",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11a/S000/flow/S000.UNRST": "6115047a10f5aca3f72dee59826264644b6aeaff60a968dd1d3818aad398dfe3",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11a/S000/deck/centers.txt": "0d318ecc1aee991cbf37bc574386d48cfbc344b9a8d2ef90efb3351a025b67d9",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11a/S000/deck/corners.txt": "74eb934388ca9a75ede48661a218e08103bbf9c3f04369bc7e27f7ae7dc20726",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11a/S000/deck/dt.txt": "993740ead960dabebe621b2094f81b7ead88de4117e62e04b4c39c3da48f4971",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11b/S000.npz": "21d943386730e851e76bf0b973d60b1a095256a41d2a5e4c93206b5986c49230",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11b/S000/deck/S000.DATA": "cbd3bb85c5467ee74e554db12ee400f558bc63f9726c02955fedb75981946997",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/inputs/S000/spe11b_S000.txt": "e750fd07961a1b6dbfcb9bc116db149741e977a5383ec5b6f8cc7d4306c5d9f3",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11b/S000/flow/S000.EGRID": "9163eb0a7b0d88346d55ae528c29b7712dacb3b7ced7ff644323efd46bff3205",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11b/S000/flow/S000.INIT": "c6949bf1a5fee072dcffe572a7ebb121d1d336324d0a2e990591dc5e13d24e3b",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11b/S000/flow/S000.UNRST": "66d5420859f852c70d724d83f548610a11ec65aa23e43abb964436128525a193",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11b/S000/deck/centers.txt": "a08352b79be744a74ec6aef27f295cf72222210970782fe5635c756df9633c3c",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11b/S000/deck/corners.txt": "9e3f020635c539339a7ac24b5b3d6715bb9cc1c529c74156ce5f395e39c8db34",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/runs/spe11b/S000/deck/dt.txt": "b3a1943ccfd4c46ab37273d74ba5f3dee7256fc84b38eb6af549e06b84367856",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/methods_figures_261116/generate_methods_figures.py": "74f40ce24184a06b3cda087b767b100e162c0a4303d511800523f2ed18d988c5",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/prepare_dataset.py": "e1c2f291cdc0c5af693e6f16e5141f6c7ae7cd93240e0fd9a488bc45bb2e9d8d",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/DATASET_COMPLETE.json": "4a5ce5d505f830551e3125e60d076afe3a3122361656bee8516521e687e27c7b",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_review_audit_20261116/audit.py": "31455caea008100de71b4cd0cb3ca32fd712d4011afd57fa294c670dda940f2e",
+    "/home/yssongvd/pyopmspe11/src/pyopmspe11/visualization/data.py": "580e758c0bd193774f0bef00140af4cb91078f6c8e47d902f801b76f343bc3de",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/v2_analysis/11_generate_manuscript_figures_14.py": "f00aab94fb498001315288d7fb0446cc42ab0cb5709af9611241fff6779c1440",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/v2_analysis/30_make_FINAL_11ch_manuscript_figures_physorient.py": "fdeb153e58bd1590fd386c62761bfbbe09ced1e90277012de1e63155b3ac47aa",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/v2_analysis/33_make_Fig02_typography_matched_physorient.py": "d06f715bf60ef7da96c1e5a08aa5e7f5d97883538c3ce9104d7e4c539c8d1ae4",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/v2_analysis/43_make_Fig01_orientation_fixed.py": "0fa0f75a29d1588f642b8b0adf43ff83360bc55676a8feb12699048250ef08cf"
+  },
+  "generated_sha256": {
+    "261116_Fig02_corrected_raw_dSg_evolution.png": "5dd7c2cbdd0ffb265c4ef9d7e90c242c9475fe938b73af9311fb256a26ff79a3",
+    "261116_Fig02_corrected_raw_dSg_evolution.pdf": "9fd1f87277d7c7d88705bf423cb5de9db08293fea950d776d14d8259119a97a4",
+    "261116_Fig03_corrected_target_construction.png": "673e503d4053705a5404107fb75229a26c88f2c31b1728212b6820af1a18cc0f",
+    "261116_Fig03_corrected_target_construction.pdf": "edd4fb65ec82c3058720e42e794d104ac77c632ab798f845f811a57ab1e2e323"
+  },
+  "Arial_font": "/mnt/c/Windows/Fonts/arial.ttf",
+  "matplotlib": "3.11.0",
+  "numpy": "1.26.4",
+  "python": "3.11.15",
+  "no_models_or_checkpoints_executed": true,
+  "no_simulation": true,
+  "publication_file_checks": [
+    {
+      "figure": "261116_Fig02_corrected_raw_dSg_evolution",
+      "png_pixels": [
+        8880,
+        2610
+      ],
+      "png_dpi": 600,
+      "pdf_pages": 1,
+      "embedded_Arial_fonts": [
+        "/FSDXDV+ArialMT",
+        "/GWACBI+Arial-BoldMT"
+      ]
+    },
+    {
+      "figure": "261116_Fig03_corrected_target_construction",
+      "png_pixels": [
+        6840,
+        3090
+      ],
+      "png_dpi": 600,
+      "pdf_pages": 1,
+      "embedded_Arial_fonts": [
+        "/BSLKGV+ArialMT",
+        "/BAYQRK+Arial-BoldMT"
+      ]
+    }
+  ],
+  "png_and_independently_rendered_pdf_visually_reviewed": true,
+  "windows_delivery_copy": "D:\\OPM with AI\\Submission\\5. Machine learning_Science and technology\\MLST_methods_figures_261116",
+  "authoritative_output": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/methods_figures_261116"
+}

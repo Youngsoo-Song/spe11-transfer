@@ -1,0 +1,59 @@
+{
+  "source_sha256": {
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/261117_Fig06_corrected_spatial_forecasts_row_verification.csv": "6de0fcce59d9482bd73d13d49c4e3ed76a1619bf6a474a4007d92d9c23bfdb84",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/FIGURE_PROVENANCE.json": "0f44ae77413dc28e2e1ea9e8d6b1af6507b76021478c5fb55e7f6b1fe8cf9901",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/261117_Fig06_corrected_spatial_forecasts.png": "c3fb738e9bfe31f94ec1f956f3b9285c3fe7ecfcd859c0eaf06e78163848b529",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/261117_Fig06_corrected_spatial_forecasts.pdf": "fef3f807f150865c925de8018e81aec8e38d60f88399f83a6b3c7c70f2becfca",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/row1_S058_seed42_i1_j5_predictions.npz": "02f84d86e417cba9f79d1197defdf941eaed4b9def2def001eddaf4eb491ba8c",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/row2_S004_seed42_i1_j2_predictions.npz": "5ad5db3b8af6a988a9d83f6780830cb0ce02aed23c5113c12359ae7f8b32759f",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/row3_S203_seed42_i4_j5_predictions.npz": "4771d1e065bb9bfe37b572f7486f1adc2c52a5660025d81aff335aa0d733d1ff",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/row4_S099_seed44_i1_j3_predictions.npz": "e49dccb9d2d047c41432c3d25019d2e0f35a0901366e446f23c8a78a3292484d"
+  },
+  "changes": {
+    "IoU": {
+      "from": 8,
+      "to": 12,
+      "position": "upper left"
+    },
+    "row_scenario_seed": {
+      "from": 8.5,
+      "to": 12.5
+    },
+    "row_details": {
+      "from": 8.5,
+      "to": 11.5
+    },
+    "column_titles": {
+      "from": 10,
+      "to": 13
+    },
+    "legend": {
+      "from": 9,
+      "to": 12
+    },
+    "colourbar_ticks": {
+      "from": 8,
+      "to": 11
+    },
+    "colourbar_label": {
+      "from": 9,
+      "to": 12
+    },
+    "axis_ticks": {
+      "from": 7,
+      "to": 10
+    },
+    "axis_labels": {
+      "from": 8,
+      "to": 11
+    }
+  },
+  "new_inference_passes": 0,
+  "training_steps": 0,
+  "cases_masks_predictions_scores_unchanged": true,
+  "prior_provenance": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/FIGURE_PROVENANCE.json",
+  "output_sha256": {
+    "261117_Fig06_corrected_spatial_forecasts_large_type.png": "7861b4223bb33ff4520449dd0caa138ebcd07340e88335c15cc19bc1c9c72731",
+    "261117_Fig06_corrected_spatial_forecasts_large_type.pdf": "c1d36792624d4f5363239d86d35b842d17089878cb4080124ba25f12c03f4d6b"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "source_sha256": {
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/PROTOCOL.json": "4c3443472b5aef66784a0804158f409b8e76e401998fec8e3b0c195a830c1c83",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/MODELS_FROZEN_BEFORE_TEST.json": "bdf16c8b386ecd127d081618715602ebff3cbc5143949fe5c8ac3c85665504c4",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary_metrics_all.csv": "17d24f7c1908c6d5a26b22c48e27d9faf1820d8323708a8f4c4e5821256cef0a",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/persistence_metrics.csv": "729c71c42e0a1f0696ff2f27c1f2b864d3e4424fc62d5b456f8b43adfc2dc1fc",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/seed_results.csv": "c8db7a7a4735ecbd3f173259a632d2ac39ff6d271eaf0495508af6ecb0c80b51",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/scenario_matrix_valid_207.csv": "5dec857af20810a987f48212dcd285c5f839d7faa07a30ccab7a15c9972477d5",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/dataset_index.csv": "b10765147ff29f37249b95b3170d5cf96d1a64f8a383576ce296ddfd00d93220",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/train_unet_monitoring_207.py": "cb1698cde84703d0f4286ed37eef93a93004a7e1bb491409d8879d4e3718798e",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/source_best.pt": "44216fd5fa7c8903e4c0c7b39082b6271c0f9d59f10800d6337c1b6ed999b26a",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/scratch_best.pt": "9b41f2319d5dbf5944b108c8e5a344a83a70af632f89f3a6d94c84bfe56993d9",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/finetuned_best.pt": "e8e6671a8205da4571d0ecf18049ee6c1b7f2dfc87943545dd23efae7af0919d",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11b/S089.npz": "7b3c4cb08d314249ecf076dd2159c167e2b747f927b44dc879979af81d671c50",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/preprocessing_checks.csv": "0eb2a22300f304c9340fae59d68b329ba2d99f149654f4daf7dc10ec7779abf0",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11b/S089_dynamic.npy": "3df9c0804ee94bced65bde0665c1e50dedf6b72973d5407c3bf26fc4a4a4e20e",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11b/S089_mask.npy": "d29e9c2b1c5a6327208954739c0ba3a9b8254b90fb27e5cb32e62ed644375c85",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/B_zero_test_metrics.csv": "39743dbe06c19e925ede3f3a3d7c05e846d2b334f521b68d3991d0146c7226be",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/B_scratch_test_metrics.csv": "3311eac0d2cd96ba9db7f1e61c8b23f2989b544dcba0aa762da8c54a1dbdc292",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/B_finetuned_test_metrics.csv": "666f928b793ff0a2fc6a997aeb5d9bef14352c407bfe9b37d3d3e2b25dd4542b",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figures07_08_261117/261117_corrected_figures07_08.py": "0ad7bedd0f1952a7061469f4b987129a5617dc39c4e0c329de0611b04fd6039c"
+  },
+  "checkpoints": {
+    "zero_shot": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/source_best.pt",
+    "scratch": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/scratch_best.pt",
+    "fine_tuning": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/finetuned_best.pt"
+  },
+  "corrected_dataset": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11b/S089.npz",
+  "fixed_target_plan": {
+    "scenario": "S089",
+    "seed": 42,
+    "target_index": 5,
+    "target_time_yr": 25,
+    "observation_indices": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "observation_times_yr": [
+      5,
+      10,
+      15,
+      20
+    ],
+    "lead_years": [
+      20,
+      15,
+      10,
+      5
+    ],
+    "selection": "user-requested fixed scenario/target; seed42 fixed before inference",
+    "checkpoint_selection_or_training": false
+  },
+  "horizon_diagnostics": {
+    "monotonicity": {
+      "persistence": {
+        "seed_monotone_decreasing": {
+          "-1": true
+        },
+        "six_seed_mean_monotone_decreasing": true
+      },
+      "zero_shot": {
+        "seed_monotone_decreasing": {
+          "11": true,
+          "22": true,
+          "33": true,
+          "42": true,
+          "44": true,
+          "55": true
+        },
+        "six_seed_mean_monotone_decreasing": true
+      },
+      "scratch": {
+        "seed_monotone_decreasing": {
+          "11": true,
+          "22": true,
+          "33": true,
+          "42": true,
+          "44": true,
+          "55": true
+        },
+        "six_seed_mean_monotone_decreasing": true
+      },
+      "fine_tuning": {
+        "seed_monotone_decreasing": {
+          "11": true,
+          "22": true,
+          "33": true,
+          "42": true,
+          "44": true,
+          "55": true
+        },
+        "six_seed_mean_monotone_decreasing": true
+      }
+    },
+    "mean_finetune_minus_scratch_by_lead": {
+      "5": 0.005583987730305329,
+      "10": 0.0059579299071294,
+      "15": 0.006339869726964209,
+      "20": 0.008414567970648212
+    },
+    "fine_tuning_mean_above_scratch_at_every_horizon": true,
+    "positive_finetuning_seeds_by_lead": {
+      "5": 6,
+      "10": 5,
+      "15": 5,
+      "20": 4
+    }
+  },
+  "new_training_steps": 0,
+  "CPU_forward_passes": 12,
+  "torch": "2.12.1+cpu",
+  "output_sha256": {
+    "261117_Fig07_corrected_horizon.png": "ed041f9ea3594688cf991b73c67b146fb7b5b679131b6caae39500b67a99bb75",
+    "261117_Fig07_corrected_horizon.pdf": "ca600ce0dc3f90b8818db4378509bf0359eeda417d1dfdcb540006cf38eba3fb",
+    "261117_Fig08_corrected_fixed_target.png": "dc3ddf774fd1c3b3420c7478926c091e2511b2b76b6c348c59aee3ced6db4600",
+    "261117_Fig08_corrected_fixed_target.pdf": "63411f84af5d1f6b0d837213dd2e6639a588a35f246f2767d14b56a12b70d1ba"
+  }
+}

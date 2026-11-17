@@ -1,0 +1,49 @@
+{
+  "selection": [
+    {
+      "row": 1,
+      "reason": "Largest target-learning recovery",
+      "scenario_id": "S058",
+      "seed": 42,
+      "i": 1,
+      "j": 5,
+      "horizon": 4
+    },
+    {
+      "row": 2,
+      "reason": "Largest positive fine-tuning gain",
+      "scenario_id": "S004",
+      "seed": 42,
+      "i": 1,
+      "j": 2,
+      "horizon": 1
+    },
+    {
+      "row": 3,
+      "reason": "High persistence",
+      "scenario_id": "S203",
+      "seed": 42,
+      "i": 4,
+      "j": 5,
+      "horizon": 1
+    },
+    {
+      "row": 4,
+      "reason": "Negative transfer (S099)",
+      "scenario_id": "S099",
+      "seed": 44,
+      "i": 1,
+      "j": 3,
+      "horizon": 2
+    }
+  ],
+  "posthoc_explanatory_only": true,
+  "rules": [
+    "seed42: maximum min(scratch,finetune)\u2212zero, with zero<persistence and both target models>zero",
+    "seed42: maximum positive pair gain, scenario-level average gain>0, excluding row1 scenario",
+    "seed42: maximum persistence, excluding row1/row2 scenarios",
+    "seed44/S099: minimum negative pair gain across its 10 pairs"
+  ],
+  "ties": "scenario_id then i then j ascending",
+  "no_checkpoint_or_hyperparameter_selection": true
+}

@@ -1,0 +1,110 @@
+{
+  "source_sha256": {
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/corrected_lowdata_subset_results.csv": "7c3a037be91a4e6e9748bac5bfc7792d3f879b627e0fb94923efa1f82e913fea",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_01_n_05/metrics_scratch.csv": "c207eca5ea02713d9a692410225d284c575954aa32e57f8059ffdf8eff2a577f",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_01_n_05/metrics_finetune.csv": "429c8f1e586f2b6ef98ed65f83ffd2c2ee4fdda1c794b99f5326cdce03562eca",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_01_n_10/metrics_scratch.csv": "39bf0f268750ce67bd0f1aef530cb358bb19003ccbd108e8b1f29be8365c392f",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_01_n_10/metrics_finetune.csv": "999bbedf0ff4b9ba20687196b0647a185bc3cf1d4980fdf88d23fb461bf63b4a",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_02_n_05/metrics_scratch.csv": "e39e9b719a4a052d2bf5c61ab5db0ef6633313c40410ba8b68d4884290020e08",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_02_n_05/metrics_finetune.csv": "e14381d798c8f42a2b4d8fbc1933e7660a3984c3a815475b682f7730cb2f0634",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_02_n_10/metrics_scratch.csv": "da5df08fa77901534e2362c1640213277306182c389afddcad1648c68482ddf7",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_02_n_10/metrics_finetune.csv": "7ee5523dc268b35ca6382a842b88e61d09eded638d60b368c164b41b3baea706",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_03_n_05/metrics_scratch.csv": "3c0adf993e453f039dd88af4a8bf49da0768dc9d705387159d60be5e0dc994aa",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_03_n_05/metrics_finetune.csv": "277acae7327eecc007e5510d9e01023ef21365b9a1e1025fcfe12fcc4211d090",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_03_n_10/metrics_scratch.csv": "0f9a2e386bf9a2d22d274d62b8d64b40937963345858e937820d33bdce9c4dc9",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_03_n_10/metrics_finetune.csv": "59879bfff2c79792a6dd7aa28ce805bc9d3dc3728e5ebeae0da61ffb7c2ffe84",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_04_n_05/metrics_scratch.csv": "c877adcb1c914d0a6f5a9a678fb6aa6e3073488ac2f44296bffbfbb4cbcc726c",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_04_n_05/metrics_finetune.csv": "de8352b332c7e7d6d638e09e53395090bd5388862dd84fd67e3fb7ae66555ec8",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_04_n_10/metrics_scratch.csv": "294f502727af83545bca8be3f22b1d38fafa269ff34a0050f98f8f0fd2c00780",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_04_n_10/metrics_finetune.csv": "2e8e6fa48bbbdc760f903245ba7f5584b9af088ff7915441dd2629b3ccc8e63b",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_05_n_05/metrics_scratch.csv": "7e79ff8d84398f243f12c78fbdfaae491cc3ab2d4c073d764f4c280688a18609",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_05_n_05/metrics_finetune.csv": "753a432696fa60833f05ecdfb731955b63c869715e2e102aed6446c14ba186cb",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_05_n_10/metrics_scratch.csv": "a80a84aa878a3bc95b5ecd0d3874894b4c858d6ece2d376418364e2da68e7d38",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_05_n_10/metrics_finetune.csv": "addd873fcf165db2239dbb5944e3d883310052b409fd60c830163a39a2b8ae73",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure09_261117/261117_Fig09_corrected_lowdata.py": "87c4d4c2e755185c7995d46aab1dc4c8dd8e9e30829e7a0c06360d3687e064dd"
+  },
+  "subset_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "model_seed": 42,
+  "summary": [
+    {
+      "N": 5,
+      "n_subset_draws": 5,
+      "positive_paired_gains": 5,
+      "scratch_iou_mean": 0.7924524451192558,
+      "scratch_iou_sample_sd": 0.023210353349412127,
+      "finetuned_iou_mean": 0.862491932540405,
+      "finetuned_iou_sample_sd": 0.023919809849326575,
+      "paired_gain_mean": 0.07003948742114914,
+      "paired_gain_sample_sd": 0.01814353370876676
+    },
+    {
+      "N": 10,
+      "n_subset_draws": 5,
+      "positive_paired_gains": 5,
+      "scratch_iou_mean": 0.8831880165382129,
+      "scratch_iou_sample_sd": 0.008120859521108099,
+      "finetuned_iou_mean": 0.9060365237695415,
+      "finetuned_iou_sample_sd": 0.009423364094861239,
+      "paired_gain_mean": 0.02284850723132848,
+      "paired_gain_sample_sd": 0.005694925641058072
+    }
+  ],
+  "same_draw_gain_check": [
+    {
+      "subset_seed": 101,
+      "N5_gain": 0.0773514614599507,
+      "N10_gain": 0.0204500956506263,
+      "N5_minus_N10_gain": 0.056901365809324395,
+      "N5_gain_greater": true
+    },
+    {
+      "subset_seed": 202,
+      "N5_gain": 0.0642294264057787,
+      "N10_gain": 0.0187735076357678,
+      "N5_minus_N10_gain": 0.04545591877001089,
+      "N5_gain_greater": true
+    },
+    {
+      "subset_seed": 303,
+      "N5_gain": 0.0544903237645219,
+      "N10_gain": 0.0283275953153284,
+      "N5_minus_N10_gain": 0.026162728449193498,
+      "N5_gain_greater": true
+    },
+    {
+      "subset_seed": 404,
+      "N5_gain": 0.0981473529756796,
+      "N10_gain": 0.0295446996281786,
+      "N5_minus_N10_gain": 0.068602653347501,
+      "N5_gain_greater": true
+    },
+    {
+      "subset_seed": 505,
+      "N5_gain": 0.0559788724998148,
+      "N10_gain": 0.0171466379267413,
+      "N5_minus_N10_gain": 0.0388322345730735,
+      "N5_gain_greater": true
+    }
+  ],
+  "positive_draws_by_N": {
+    "5": 5,
+    "10": 5
+  },
+  "model_fits": 0,
+  "inference_passes": 0,
+  "mean_marker_horizontal_offset": 0.18,
+  "axis_range": [
+    0.7,
+    1.0
+  ],
+  "output_sha256": {
+    "261117_Fig09_corrected_lowdata.png": "8a8fd45920dffaca2ce517416c50eaa1a89cba1cb8bda8868d55b0267981360d",
+    "261117_Fig09_corrected_lowdata.pdf": "25e1d88bbe7e3b23892b2423a9634e13003eda4d97086f45a5ef0293434bf037"
+  }
+}

@@ -1,0 +1,24 @@
+# Large raw simulations, complete training data, and weights are external assets.
+# Deliberately keep the small archived figure prediction NPZs tracked.
+*.UNRST
+*.EGRID
+*.INIT
+*.SMSPEC
+*.UNSMRY
+*.pt
+*.pth
+research/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11a/
+research/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11b/
+runs/
+.venv/
+venv*/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+_verification*/
+_reproduced*/
+

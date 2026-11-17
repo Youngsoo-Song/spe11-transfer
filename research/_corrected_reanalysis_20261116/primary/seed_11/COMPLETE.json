@@ -1,0 +1,34 @@
+{
+  "seed": 11,
+  "train_validation_only": true,
+  "epochs_completed": [
+    25,
+    30,
+    30
+  ],
+  "selection": {
+    "source": {
+      "best_epoch": 20,
+      "best_val_iou": 0.939489352941513
+    },
+    "finetune": {
+      "best_epoch": 30,
+      "best_val_iou": 0.9434917297363281
+    },
+    "scratch": {
+      "best_epoch": 28,
+      "best_val_iou": 0.9393842124938965
+    }
+  },
+  "checkpoints": {
+    "source_best.pt": "0a473cff1f5a4129cb3c1719177ecad9befd777fabe7ccf485419c97b9b55715",
+    "finetuned_best.pt": "3223f4f7f08728af9f70c50cbcc7f680f2bb4e207b1a46223fa9fdb9c584588d",
+    "scratch_best.pt": "bd437ed84296d87b35d49c4e810cab7f12007ba050890275cac032f87f094d38"
+  },
+  "stage_seconds": {
+    "seed11_A_source": 753.5746459960938,
+    "seed11_B_finetune": 208.60057663917542,
+    "seed11_B_scratch": 206.38681316375732
+  },
+  "elapsed_seconds": 1168.6186010837555
+}

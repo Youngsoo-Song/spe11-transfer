@@ -1,0 +1,10 @@
+{
+  "closed": true,
+  "user_instruction": "Last AI learning: complete20 low-data jobs then stop; evidence synthesis only",
+  "primary_fits": 18,
+  "lowdata_fits": 20,
+  "total_scientific_fits": 38,
+  "additional_fits": 0,
+  "automatic_expansion": false,
+  "closed_unix": 1794822190.8731055
+}

@@ -1,0 +1,68 @@
+{
+  "source_sha256": {
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/261117_Fig06_corrected_spatial_forecasts_row_verification.csv": "6de0fcce59d9482bd73d13d49c4e3ed76a1619bf6a474a4007d92d9c23bfdb84",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/FIGURE_PROVENANCE.json": "0f44ae77413dc28e2e1ea9e8d6b1af6507b76021478c5fb55e7f6b1fe8cf9901",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/MODELS_FROZEN_BEFORE_TEST.json": "bdf16c8b386ecd127d081618715602ebff3cbc5143949fe5c8ac3c85665504c4",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/PROTOCOL.json": "4c3443472b5aef66784a0804158f409b8e76e401998fec8e3b0c195a830c1c83",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary_metrics_all.csv": "17d24f7c1908c6d5a26b22c48e27d9faf1820d8323708a8f4c4e5821256cef0a",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/row1_S058_seed42_i1_j5_predictions.npz": "02f84d86e417cba9f79d1197defdf941eaed4b9def2def001eddaf4eb491ba8c",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11b/S058.npz": "f691b161416de6b98481fd004c9e18d3e139d32415a49cbb56a305193e77d6a1",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/source_best.pt": "44216fd5fa7c8903e4c0c7b39082b6271c0f9d59f10800d6337c1b6ed999b26a",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/scratch_best.pt": "9b41f2319d5dbf5944b108c8e5a344a83a70af632f89f3a6d94c84bfe56993d9",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/finetuned_best.pt": "e8e6671a8205da4571d0ecf18049ee6c1b7f2dfc87943545dd23efae7af0919d",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/row2_S004_seed42_i1_j2_predictions.npz": "5ad5db3b8af6a988a9d83f6780830cb0ce02aed23c5113c12359ae7f8b32759f",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11b/S004.npz": "9b05cbf7a3cbbdcda22e4d4a0b815c638b01fc4f0622a3b7391514d447a52a18",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure06_261117/row4_S099_seed44_i1_j3_predictions.npz": "e49dccb9d2d047c41432c3d25019d2e0f35a0901366e446f23c8a78a3292484d",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11b/S099.npz": "1cc200cc3d2b5bd4fc57ebf220562768573170a61def6c795e46c9229d5158f9",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_44/source_best.pt": "8d08e27ec016a48ba6d07f7b148a6725b3aa4d05f91d095c77467108b29d040a",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_44/scratch_best.pt": "256e1082c4ef16942c78e718dbe0dd59e5d4beae57f0f9a53b2bcf5d327e8590",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_44/finetuned_best.pt": "5ba15417553b91e5134f7c1ff992fd1e18bcea9f16c79b4151aad0567536d5f4",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure10_error_decomposition_261117/261117_Fig10_corrected_error_decomposition.py": "8881280d1c3d4ac7549954e79e881d3dd90f59e124c93d336863c870a620d66b"
+  },
+  "cases": [
+    [
+      "S058",
+      42,
+      1,
+      5
+    ],
+    [
+      "S004",
+      42,
+      1,
+      2
+    ],
+    [
+      "S099",
+      44,
+      1,
+      3
+    ]
+  ],
+  "checkpoint_paths": {
+    "42_zero_shot": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/source_best.pt",
+    "42_scratch": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/scratch_best.pt",
+    "42_fine_tuning": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/finetuned_best.pt",
+    "44_zero_shot": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_44/source_best.pt",
+    "44_scratch": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_44/scratch_best.pt",
+    "44_fine_tuning": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_44/finetuned_best.pt"
+  },
+  "new_inference_passes": 0,
+  "training_steps": 0,
+  "plotted_error_classes": {
+    "0": "black",
+    "1": "#32CD32",
+    "2": "#d62728",
+    "3": "#1f77b4"
+  },
+  "background": "TN black; target reference purple/yellow",
+  "vector_rectangle_count": 777,
+  "orientation": "physical x right/elevation z up; no flips; exact extent [0,8.4]\u00d7[0,1.2] km",
+  "same_display_aspect_as_Fig6_large_type": true,
+  "model_panel_count": 9,
+  "reference_panel_count": 3,
+  "output_sha256": {
+    "261117_Fig10_corrected_error_decomposition.png": "dc9c28314b217d012239a8ebe06cacada703fa4c3f3881354cabe500785aef54",
+    "261117_Fig10_corrected_error_decomposition.pdf": "1ca02cf1b5b21c0161988dcd191aaa91ac95ec274e9e3c31fadf9407c08cf1f8"
+  }
+}

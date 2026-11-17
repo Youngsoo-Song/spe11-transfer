@@ -1,0 +1,6 @@
+{
+  "train_validation_only": true,
+  "bitwise_loader_comparison_pairs": 40,
+  "split_checks": "pass",
+  "protocol_sha256": "4c3443472b5aef66784a0804158f409b8e76e401998fec8e3b0c195a830c1c83"
+}

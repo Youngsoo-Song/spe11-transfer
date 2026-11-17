@@ -1,0 +1,5 @@
+case,role,scenario_id,forecast_pairs,input_and_label_bitwise_equal
+spe11a,train,S001,10,True
+spe11a,val,S007,10,True
+spe11b,finetune_train,S001,10,True
+spe11b,finetune_val,S007,10,True

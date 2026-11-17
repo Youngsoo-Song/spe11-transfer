@@ -1,0 +1,41 @@
+{
+  "plume_mask": {
+    "threshold": 0.001,
+    "role": "primary label"
+  },
+  "mask_0001": {
+    "threshold": 0.001,
+    "role": "same primary label"
+  },
+  "mask_001": {
+    "threshold": 0.01,
+    "role": "predefined sensitivity label, not trained"
+  },
+  "mask_005": {
+    "threshold": 0.05,
+    "role": "predefined sensitivity label, not trained"
+  },
+  "mask_legacy0097": {
+    "threshold": 0.097,
+    "role": "legacy comparison only"
+  },
+  "sgas_raw": {
+    "dtype": "float64 container preserving original UNRST values",
+    "clipping": "none",
+    "invalid": "NaN"
+  },
+  "water_pressure_raw_Pa": {
+    "dtype": "float64",
+    "formula": "(PRESSURE-PCGW)*1e5",
+    "csv_rounding": "none"
+  },
+  "X": {
+    "shape": "6,3,H,W",
+    "channels": [
+      "raw-derived delta water pressure",
+      "raw-derived nonnegative delta SGAS",
+      "unchanged legacy XCO2"
+    ],
+    "training": "same original normalization; add original 8 timing/scenario constants for 11 channels"
+  }
+}

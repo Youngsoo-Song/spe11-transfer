@@ -1,0 +1,15 @@
+{
+  "python": "/home/yssongvd/opm-ai-env/bin/python",
+  "version": "3.11.15 (main, Mar  3 2026, 09:26:23) [GCC 11.4.0]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "numpy": "1.26.4",
+  "pandas": "3.0.3",
+  "project": "/home/yssongvd/opm_runs/spe11_crossscale_project",
+  "source": "/home/yssongvd/pyopmspe11/src/pyopmspe11/visualization/data.py",
+  "requested_scenarios_per_domain": 207,
+  "successful_domain_scenario_pairs": 414,
+  "failures": 0,
+  "elapsed_seconds": 176.03016662597656,
+  "mapping_cache_entries": 2,
+  "pilot": false
+}

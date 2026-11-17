@@ -1,0 +1,13 @@
+domain,scenario,snapshot,time,time_unit,mask_mismatch_pixels,plume_pixels
+spe11a,S000,0,0.0,h,0,0
+spe11a,S000,1,1.0,h,0,733
+spe11a,S000,2,2.0,h,0,1249
+spe11a,S000,3,3.0,h,0,2015
+spe11a,S000,4,4.0,h,0,2629
+spe11a,S000,5,5.0,h,0,3210
+spe11b,S000,0,0.0,yr,0,0
+spe11b,S000,1,5.0,yr,0,272
+spe11b,S000,2,10.0,yr,0,490
+spe11b,S000,3,15.0,yr,0,686
+spe11b,S000,4,20.0,yr,0,880
+spe11b,S000,5,25.0,yr,0,1048

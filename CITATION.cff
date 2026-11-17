@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Working repository; a complete author-approved citation and archived release DOI will be added before publication."
+type: software
+title: "SPE11 corrected cross-scale plume forecasting: code and evaluation tables"
+authors:
+  - name: "Youngsoo-Song (repository owner; final contributor list pending)"
+repository-code: "https://github.com/Youngsoo-Song/spe11-transfer"
+date-released: 2026-11-17
+version: "0.1.0-preparation"
+

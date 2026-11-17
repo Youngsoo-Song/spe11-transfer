@@ -1,0 +1,5 @@
+{
+  "seed": 42,
+  "gate": "finite full 25/30/30 train/validation, exact loader compatibility, no test inspected",
+  "checkpoint_selection": "validation only"
+}

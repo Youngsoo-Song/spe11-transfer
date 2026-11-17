@@ -1,0 +1,48 @@
+{
+  "verdict": "Go",
+  "jobs": 20,
+  "epochs": 600,
+  "test_rows": 8200,
+  "paired_forecast_rows": 4100,
+  "scenario_rows": 410,
+  "negative_scenario_rows": 42,
+  "wall_training_seconds": 1619.6651197360043,
+  "process_CPU_seconds": 19426.599700754,
+  "subset_csvs_exact": 10,
+  "fixed_val": 25,
+  "fixed_test": 41,
+  "source_and20_checkpoints_preserved": true,
+  "no_more_AI_training": true,
+  "new_N20_or_other_experiments": 0,
+  "complete_unix": 1794822190.8726938,
+  "summary": [
+    {
+      "N": 5,
+      "scratch_mean": 0.7924524451,
+      "scratch_sd": 0.0232103533,
+      "finetuned_mean": 0.8624919325,
+      "finetuned_sd": 0.0239198098,
+      "gain_mean": 0.0700394874,
+      "gain_sd": 0.0181435337,
+      "gain_min": 0.0544903238,
+      "gain_max": 0.098147353,
+      "positive_subsets": 5,
+      "gain_minus_N33_reference": 0.0639090826,
+      "gain_over_N33_reference": 11.4249367912
+    },
+    {
+      "N": 10,
+      "scratch_mean": 0.8831880165,
+      "scratch_sd": 0.0081208595,
+      "finetuned_mean": 0.9060365238,
+      "finetuned_sd": 0.0094233641,
+      "gain_mean": 0.0228485072,
+      "gain_sd": 0.0056949256,
+      "gain_min": 0.0171466379,
+      "gain_max": 0.0295446996,
+      "positive_subsets": 5,
+      "gain_minus_N33_reference": 0.0167181024,
+      "gain_over_N33_reference": 3.7270796875
+    }
+  ]
+}

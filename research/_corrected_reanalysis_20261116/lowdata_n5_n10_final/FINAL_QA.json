@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scope": "Existing CSV/checkpoint/provenance QA and editorial synthesis only; no model inference or training",
+  "fits": 20,
+  "epochs": 600,
+  "test_rows": 8200,
+  "paired_forecast_rows": 4100,
+  "scenario_rows": 410,
+  "negative_scenario_rows": 42,
+  "negative_by_N": {
+    "5": 18,
+    "10": 24
+  },
+  "checkpoint_count": 20,
+  "frozen_checkpoint_hashes_match": true,
+  "source_hash_matches": true,
+  "protocol_script_dataset_manifest_primary_protocol_hashes_match": true,
+  "exact_subsets": 10,
+  "means_and_sample_SD_independently_recomputed": true,
+  "validation_checkpoint_epochs_verified": 20,
+  "test_ids_exact": true,
+  "additional_fits": 0,
+  "no_further_experiments": true,
+  "verdict": "Conditional Go",
+  "artifacts": {
+    "CORRECTED_LOWDATA_RESULTS.md": "e8baae5580b3ed26da0e1a9537bccb378f424dc210c266fae31a5a3de1d8fb24",
+    "corrected_lowdata_subset_results.csv": "7c3a037be91a4e6e9748bac5bfc7792d3f879b627e0fb94923efa1f82e913fea",
+    "LOWDATA_DECISION.md": "121c5e6562cc7bbc5e0bab9a9facabef2d885c80bdac9f143428414a26969c8a",
+    "FINAL_SUBMISSION_DECISION.md": "48074afdf3b0d59a0e647dfe06c6ef7959369b0386d24359aeb03920bff2fd8c",
+    "metrics_all.csv": "d9e6cd97704dba6442406e38a1dfa44d565970716b5deed2267539c4edb39da6",
+    "scenario_gains.csv": "3e75366acaa7c7ff49e0e29c4b579144ec2e58cd81e5caff498a20d4a0b54eb2",
+    "negative_transfer_cases.csv": "ac2473d0c3345dbe8c39b76eaeba4b5fe3af42aa10fe34ec1797f4ca4452a63e",
+    "AI_TRAINING_CLOSED.json": "333146808180358d1f237bb5e700dba08d18382ca2a0197faa269b36065fce75"
+  },
+  "unix": 1794822445.4117045
+}

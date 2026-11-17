@@ -1,0 +1,12 @@
+{
+  "metric": "average10 forecast-pair IoUs per each of41 scenarios, then average41 scenarios",
+  "paired_gain": "fine_tuned minus scratch for same subset/scenario/i/j",
+  "SD": "sample SD across5 subset draws, not model-seed uncertainty",
+  "negative_transfer": "scenario mean paired gain <0; export all5x2x41 cases and negative-only table",
+  "repetition": "report exact positive count/5 for each N; no subset exclusions or p-value selection",
+  "comparison": "matched legacy08 draws; legacy07 seed2026 headline is separately identified, not a matched counterpart",
+  "budget": "N is weight-update scenario count;25 target validation scenarios also labelled. N5 needs5+25=30,N10 needs10+25=35 target development scenarios, test41 additional benchmark only.",
+  "claim_limits": "one source/model seed42,five overlapping/nested subset draws,fixed geology,noise-free inputs,binary extent,sampled horizons",
+  "stop": "20 fits only; final evidence synthesis without more AI learning",
+  "registered_unix": 1794820371.4741545
+}

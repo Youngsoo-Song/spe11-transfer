@@ -1,0 +1,7 @@
+{
+  "learned_rows": 9840,
+  "persistence_rows": 410,
+  "fixed_B_test_scenarios": 41,
+  "forecast_pairs_per_scenario": 10,
+  "no_test_tuning": true
+}

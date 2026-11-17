@@ -1,0 +1,15 @@
+{
+  "replicate": 1,
+  "subset_seed": 101,
+  "N": 10,
+  "method": "finetune",
+  "model_seed": 42,
+  "epochs": 30,
+  "best_epoch": 29,
+  "best_val_iou": 0.9143402831554412,
+  "wall_seconds": 91.48481405500206,
+  "process_CPU_seconds": 1097.74147045,
+  "initial_training_RNG_sha256": "d3de1d9519ee1811c7c1239c8ffb0fdc4a194050cd76b68be3d9bc21cfba674f",
+  "checkpoint": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/lowdata_n5_n10_final/rep_01_n_10/finetune_best.pt",
+  "checkpoint_sha256": "8fc3be6632b937a9ae49338bd3a679b9e504a4287e63b5cf93cda27ab5262e92"
+}

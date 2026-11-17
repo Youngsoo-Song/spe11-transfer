@@ -1,0 +1,14 @@
+{
+  "q_mult": {
+    "float64_max_difference": 0.0,
+    "float32_equal": true
+  },
+  "kz_rel_mult": {
+    "float64_max_difference": 0.0,
+    "float32_equal": true
+  },
+  "global_perm_mult": {
+    "float64_max_difference": 0.0,
+    "float32_equal": true
+  }
+}

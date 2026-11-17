@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "copied_file_checksums_verified": 275,
+  "archived_python_syntax_checked_without_execution": 17,
+  "primary_pair_rows": 9840,
+  "persistence_pair_rows": 410,
+  "primary_paired_gain_mean": 0.006130404806718577,
+  "primary_paired_gain_sample_sd": 0.003981177971961395,
+  "primary_positive_seed_gains": 5,
+  "negative_seed_scenario_observations": 61,
+  "total_seed_scenario_observations": 246,
+  "lowdata_draws": 10,
+  "new_training_fits": 0,
+  "new_inference": 0,
+  "scope": "CSV aggregation and archived file checks; no full pixel/model reconstruction"
+}

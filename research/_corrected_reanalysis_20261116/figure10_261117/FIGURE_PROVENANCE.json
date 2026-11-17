@@ -1,0 +1,61 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    42,
+    44,
+    55
+  ],
+  "seed_gains": [
+    {
+      "seed": 11,
+      "paired_gain": 0.0028569980365473
+    },
+    {
+      "seed": 22,
+      "paired_gain": 0.0086766901539593
+    },
+    {
+      "seed": 33,
+      "paired_gain": 0.0096949613675838
+    },
+    {
+      "seed": 42,
+      "paired_gain": 0.0094128851483508
+    },
+    {
+      "seed": 44,
+      "paired_gain": -7.937085337761385e-05
+    },
+    {
+      "seed": 55,
+      "paired_gain": 0.0062202649872477
+    }
+  ],
+  "mean_paired_gain": 0.006130404806718596,
+  "sample_SD_ddof1": 0.003981177971961401,
+  "positive_seeds": 5,
+  "negative_seeds": 1,
+  "seed44_gain": -7.937085337761385e-05,
+  "negative_seed_scenario_count": 61,
+  "positive_seed_scenario_count": 185,
+  "zero_count": 0,
+  "total_observations": 246,
+  "unique_scenarios": 41,
+  "S099_seed44_gain": -0.0260944783687591,
+  "source_sha256": {
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/seed_results.csv": "c8db7a7a4735ecbd3f173259a632d2ac39ff6d271eaf0495508af6ecb0c80b51",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/target_scenario_gains.csv": "2f62bfa0bcb2772df881c4610efd69de9a68d94e7e22fe1afcd1e8e968d0833d",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/scenario_matrix_valid_207.csv": "5dec857af20810a987f48212dcd285c5f839d7faa07a30ccab7a15c9972477d5",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/figure10_261117/261117_Fig10_corrected_consistency.py": "547c85df2e8062964ae8039d210ce6ac362a0e31dc87dc52de2d5c991490cd90"
+  },
+  "panel_b_core_observation_markers": 246,
+  "source_data_modified": false,
+  "training_steps": 0,
+  "inference_passes": 0,
+  "output_sha256": {
+    "261117_Fig10_corrected_consistency.png": "8725f16f3cfbd5136c7d597007c7fdbabfbb1334d80e3476db7388eb97b125d1",
+    "261117_Fig10_corrected_consistency.pdf": "63db9c929451fc81960fbf7acefc44af5a839a88de11078ca91ae66e04b395b2"
+  }
+}

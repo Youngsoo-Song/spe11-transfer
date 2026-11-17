@@ -1,0 +1,26 @@
+{
+  "scenario": "S089",
+  "seed": 42,
+  "target_index": 5,
+  "target_time_yr": 25,
+  "observation_indices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "observation_times_yr": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "lead_years": [
+    20,
+    15,
+    10,
+    5
+  ],
+  "selection": "user-requested fixed scenario/target; seed42 fixed before inference",
+  "checkpoint_selection_or_training": false
+}

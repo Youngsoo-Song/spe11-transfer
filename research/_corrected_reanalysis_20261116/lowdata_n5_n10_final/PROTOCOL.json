@@ -1,0 +1,339 @@
+{
+  "primary_threshold": 0.001,
+  "jobs": [
+    {
+      "replicate": 1,
+      "subset_seed": 101,
+      "n_target_train": 5,
+      "train_ids": [
+        "S020",
+        "S158",
+        "S102",
+        "S192",
+        "S194"
+      ],
+      "methods": [
+        "finetune",
+        "scratch"
+      ]
+    },
+    {
+      "replicate": 1,
+      "subset_seed": 101,
+      "n_target_train": 10,
+      "train_ids": [
+        "S020",
+        "S158",
+        "S102",
+        "S192",
+        "S194",
+        "S147",
+        "S087",
+        "S114",
+        "S002",
+        "S070"
+      ],
+      "methods": [
+        "finetune",
+        "scratch"
+      ]
+    },
+    {
+      "replicate": 2,
+      "subset_seed": 202,
+      "n_target_train": 5,
+      "train_ids": [
+        "S090",
+        "S109",
+        "S197",
+        "S151",
+        "S166"
+      ],
+      "methods": [
+        "finetune",
+        "scratch"
+      ]
+    },
+    {
+      "replicate": 2,
+      "subset_seed": 202,
+      "n_target_train": 10,
+      "train_ids": [
+        "S090",
+        "S109",
+        "S197",
+        "S151",
+        "S166",
+        "S050",
+        "S102",
+        "S060",
+        "S082",
+        "S186"
+      ],
+      "methods": [
+        "finetune",
+        "scratch"
+      ]
+    },
+    {
+      "replicate": 3,
+      "subset_seed": 303,
+      "n_target_train": 5,
+      "train_ids": [
+        "S144",
+        "S083",
+        "S165",
+        "S129",
+        "S166"
+      ],
+      "methods": [
+        "finetune",
+        "scratch"
+      ]
+    },
+    {
+      "replicate": 3,
+      "subset_seed": 303,
+      "n_target_train": 10,
+      "train_ids": [
+        "S144",
+        "S083",
+        "S165",
+        "S129",
+        "S166",
+        "S194",
+        "S136",
+        "S060",
+        "S192",
+        "S197"
+      ],
+      "methods": [
+        "finetune",
+        "scratch"
+      ]
+    },
+    {
+      "replicate": 4,
+      "subset_seed": 404,
+      "n_target_train": 5,
+      "train_ids": [
+        "S074",
+        "S005",
+        "S109",
+        "S136",
+        "S197"
+      ],
+      "methods": [
+        "finetune",
+        "scratch"
+      ]
+    },
+    {
+      "replicate": 4,
+      "subset_seed": 404,
+      "n_target_train": 10,
+      "train_ids": [
+        "S074",
+        "S005",
+        "S109",
+        "S136",
+        "S197",
+        "S082",
+        "S091",
+        "S147",
+        "S194",
+        "S050"
+      ],
+      "methods": [
+        "finetune",
+        "scratch"
+      ]
+    },
+    {
+      "replicate": 5,
+      "subset_seed": 505,
+      "n_target_train": 5,
+      "train_ids": [
+        "S165",
+        "S005",
+        "S091",
+        "S090",
+        "S002"
+      ],
+      "methods": [
+        "finetune",
+        "scratch"
+      ]
+    },
+    {
+      "replicate": 5,
+      "subset_seed": 505,
+      "n_target_train": 10,
+      "train_ids": [
+        "S165",
+        "S005",
+        "S091",
+        "S090",
+        "S002",
+        "S102",
+        "S087",
+        "S114",
+        "S095",
+        "S129"
+      ],
+      "methods": [
+        "finetune",
+        "scratch"
+      ]
+    }
+  ],
+  "total_training_jobs": 20,
+  "N_values": [
+    5,
+    10
+  ],
+  "model_seed": 42,
+  "subset_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "source_checkpoint": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/source_best.pt",
+  "source_checkpoint_sha256": "44216fd5fa7c8903e4c0c7b39082b6271c0f9d59f10800d6337c1b6ed999b26a",
+  "source_selection": "corrected primary seed42, A validation best epoch24; no B test-based source choice",
+  "train_pool": [
+    "S001",
+    "S002",
+    "S005",
+    "S020",
+    "S045",
+    "S050",
+    "S060",
+    "S070",
+    "S074",
+    "S082",
+    "S083",
+    "S087",
+    "S090",
+    "S091",
+    "S095",
+    "S100",
+    "S102",
+    "S109",
+    "S114",
+    "S120",
+    "S129",
+    "S136",
+    "S144",
+    "S147",
+    "S151",
+    "S158",
+    "S165",
+    "S166",
+    "S186",
+    "S192",
+    "S194",
+    "S197",
+    "S198"
+  ],
+  "validation_ids": [
+    "S007",
+    "S017",
+    "S021",
+    "S042",
+    "S055",
+    "S056",
+    "S067",
+    "S072",
+    "S080",
+    "S097",
+    "S101",
+    "S104",
+    "S108",
+    "S110",
+    "S111",
+    "S115",
+    "S118",
+    "S134",
+    "S141",
+    "S143",
+    "S157",
+    "S168",
+    "S174",
+    "S183",
+    "S196"
+  ],
+  "test_ids": [
+    "S000",
+    "S004",
+    "S018",
+    "S024",
+    "S025",
+    "S026",
+    "S027",
+    "S028",
+    "S029",
+    "S033",
+    "S037",
+    "S039",
+    "S043",
+    "S051",
+    "S058",
+    "S061",
+    "S062",
+    "S078",
+    "S085",
+    "S089",
+    "S094",
+    "S099",
+    "S112",
+    "S116",
+    "S119",
+    "S121",
+    "S123",
+    "S125",
+    "S126",
+    "S131",
+    "S145",
+    "S146",
+    "S153",
+    "S155",
+    "S160",
+    "S162",
+    "S175",
+    "S188",
+    "S191",
+    "S203",
+    "S210"
+  ],
+  "validation_count": 25,
+  "test_count": 41,
+  "epochs_per_job": 30,
+  "batch_size": 4,
+  "lr": 0.001,
+  "optimizer": "original Adam defaults",
+  "loss": "original BCE+soft-Dice",
+  "architecture": "SmallUNet(in_ch=11,base=16)",
+  "prediction_threshold": 0.5,
+  "num_workers": 0,
+  "normalization": "same primary observed-image maxabs pressure/XCO2; deltaSGAS unscaled",
+  "device": "cpu",
+  "torch": "2.12.1+cpu",
+  "threads": 12,
+  "amp": false,
+  "compile": false,
+  "seed_reset": "Python/NumPy/Torch reset to42 separately before each fine-tune AND scratch model construction, as legacy08",
+  "subset_restore": "saved CSVs copied byte-for-byte, order and historical default_rng recipe match; N5 nested within N10",
+  "test_isolation": "all20 validation-selected checkpoints frozen before any new low-data test evaluation",
+  "N33_reference": "existing corrected6-seed gain0.006130404806718577 only; no new N33 training",
+  "stop_rule": "This is the final AI training. No threshold/scaling/otherN/seed/architecture/geology/noise/UQ expansion.",
+  "script_sha256": "5caf36b2981156e6faee20b5a4c9148e86a6d88d3c5ed69318cf384f1b6a576a",
+  "training_functions_sha256": "cb1698cde84703d0f4286ed37eef93a93004a7e1bb491409d8879d4e3718798e",
+  "primary_protocol_sha256": "4c3443472b5aef66784a0804158f409b8e76e401998fec8e3b0c195a830c1c83",
+  "dataset_complete_sha256": "4a5ce5d505f830551e3125e60d076afe3a3122361656bee8516521e687e27c7b",
+  "matrix_sha256": "4a3eadb7efc1137f5da6b5a828e204670a0ad38bb02a2747b1daf2629163054c",
+  "registered_unix": 1794820371.4739664,
+  "known_restore_limits": "Historical legacy PyTorch version was not recorded. Current existing CPU environment retained. Full-data primary used continuous per-seed RNG; legacy08 resets seed42 per method, which is reproduced here."
+}

@@ -1,0 +1,97 @@
+{
+  "protocol_sha256": "4c3443472b5aef66784a0804158f409b8e76e401998fec8e3b0c195a830c1c83",
+  "checkpoints": [
+    {
+      "seed": 42,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/source_best.pt",
+      "sha256": "44216fd5fa7c8903e4c0c7b39082b6271c0f9d59f10800d6337c1b6ed999b26a"
+    },
+    {
+      "seed": 42,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/finetuned_best.pt",
+      "sha256": "e8e6671a8205da4571d0ecf18049ee6c1b7f2dfc87943545dd23efae7af0919d"
+    },
+    {
+      "seed": 42,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_42/scratch_best.pt",
+      "sha256": "9b41f2319d5dbf5944b108c8e5a344a83a70af632f89f3a6d94c84bfe56993d9"
+    },
+    {
+      "seed": 11,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_11/source_best.pt",
+      "sha256": "0a473cff1f5a4129cb3c1719177ecad9befd777fabe7ccf485419c97b9b55715"
+    },
+    {
+      "seed": 11,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_11/finetuned_best.pt",
+      "sha256": "3223f4f7f08728af9f70c50cbcc7f680f2bb4e207b1a46223fa9fdb9c584588d"
+    },
+    {
+      "seed": 11,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_11/scratch_best.pt",
+      "sha256": "bd437ed84296d87b35d49c4e810cab7f12007ba050890275cac032f87f094d38"
+    },
+    {
+      "seed": 22,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_22/source_best.pt",
+      "sha256": "41f844ab19f9b771be1a96760f41d8acb5ec6f0a86f960a419d7cf2e10a17fb8"
+    },
+    {
+      "seed": 22,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_22/finetuned_best.pt",
+      "sha256": "ecb6c88bf134b9d15403e05860995fbf95d65f69f1f79630a0a3dbe5678aa206"
+    },
+    {
+      "seed": 22,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_22/scratch_best.pt",
+      "sha256": "e99b41edeb805e369acd228e2b8563c4f498c853f9c591e2b7c9acddecd4556c"
+    },
+    {
+      "seed": 33,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_33/source_best.pt",
+      "sha256": "eb55acf5499196de8d895de88d46c0d892cc34b6b9cc830be9b38de67c595fbf"
+    },
+    {
+      "seed": 33,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_33/finetuned_best.pt",
+      "sha256": "828a1e6f95300789b6588b3562be7e437e39c616379b55e4355f19e87b587ab3"
+    },
+    {
+      "seed": 33,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_33/scratch_best.pt",
+      "sha256": "4f6810c1db1702cd4521458ca53211d73f520b12c91a2918a4cc09a268b3a2bd"
+    },
+    {
+      "seed": 44,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_44/source_best.pt",
+      "sha256": "8d08e27ec016a48ba6d07f7b148a6725b3aa4d05f91d095c77467108b29d040a"
+    },
+    {
+      "seed": 44,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_44/finetuned_best.pt",
+      "sha256": "5ba15417553b91e5134f7c1ff992fd1e18bcea9f16c79b4151aad0567536d5f4"
+    },
+    {
+      "seed": 44,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_44/scratch_best.pt",
+      "sha256": "256e1082c4ef16942c78e718dbe0dd59e5d4beae57f0f9a53b2bcf5d327e8590"
+    },
+    {
+      "seed": 55,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_55/source_best.pt",
+      "sha256": "245907a484107b389fa5810656b8c4e7012af600b0f5464d2405a50570b186fa"
+    },
+    {
+      "seed": 55,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_55/finetuned_best.pt",
+      "sha256": "2981c238f0f9be4715d591970c99f5d59e3774a1e60355489d8e559998973211"
+    },
+    {
+      "seed": 55,
+      "path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/primary/seed_55/scratch_best.pt",
+      "sha256": "42296dc65c47f5a94cdd5bf0aa3aaf0e9cb98709f6586d28e1828099fea58d16"
+    }
+  ],
+  "test_scores_seen": false,
+  "freeze_unix": 1794819068.4384446
+}

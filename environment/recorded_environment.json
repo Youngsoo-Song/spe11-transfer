@@ -1,0 +1,67 @@
+{
+  "python": "3.11.15 (main, Mar  3 2026, 09:26:23) [GCC 11.4.0]",
+  "platform": "linux",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.3",
+    "matplotlib": "3.11.0",
+    "torch": "2.12.1+cpu",
+    "resdata": "6.3.2",
+    "scipy": "1.17.1",
+    "pillow": "12.3.0"
+  },
+  "recorded_primary_protocol": {
+    "primary_threshold": 0.001,
+    "sensitivity_thresholds": [
+      0.01,
+      0.05
+    ],
+    "legacy_threshold": 0.097,
+    "seeds_in_execution_order": [
+      42,
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "source_epochs": 25,
+    "target_scratch_epochs": 30,
+    "target_finetune_epochs": 30,
+    "stage_order": [
+      "A_source",
+      "B_finetune",
+      "B_scratch"
+    ],
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "batch_size": 4,
+    "num_workers": 0,
+    "architecture": "original SmallUNet(in_ch=11,base=16)",
+    "loss": "original BCE+soft-Dice",
+    "selection": "max validation IoU, strict >, original",
+    "prediction_threshold": 0.5,
+    "normalization": "unchanged original observed image maxabs pressure/XCO2; SGAS unscaled",
+    "device": "cpu",
+    "torch": "2.12.1+cpu",
+    "threads": 12,
+    "amp": false,
+    "compile": false,
+    "memory_format": "original contiguous",
+    "dataset_complete_sha256": "4a5ce5d505f830551e3125e60d076afe3a3122361656bee8516521e687e27c7b",
+    "script_sha256": "79bf1bfe120c2ba532134b06a6d2e8f4d595c38b3abe6fd7f0b0ca10eca56241",
+    "source_functions_sha256": "cb1698cde84703d0f4286ed37eef93a93004a7e1bb491409d8879d4e3718798e",
+    "dataset_class_source_sha256": "0a71641eebe865476a6cddccd52cb9fc88ead846f5e05ebf65047920a420f4d3",
+    "counts": {
+      "spe11a_train": 141,
+      "spe11a_val": 25,
+      "spe11a_test": 41,
+      "spe11b_finetune_train": 33,
+      "spe11b_finetune_val": 25,
+      "spe11b_zero_shot_and_final_test": 41
+    },
+    "deferred_test": "test forward passes deferred until all 18 selected checkpoints fixed; original evaluation DataLoader RNG draws preserved",
+    "no_new_experiments": "no sensitivity training, scaling ablation, or low-data training in this primary run",
+    "legacy_runtime_limit": "legacy logs confirm CPU; historical PyTorch version was not recorded in those logs"
+  }
+}

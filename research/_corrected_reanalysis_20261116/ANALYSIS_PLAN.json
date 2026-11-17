@@ -1,0 +1,19 @@
+{
+  "registered_unix": 1794812407.9260674,
+  "primary_methods": [
+    "persistence",
+    "zero_shot",
+    "scratch",
+    "fine_tuning"
+  ],
+  "evaluation": "fixed 41 B scenarios x10 pairs x6 seeds; no test tuning",
+  "seed_aggregation": "equal pair means, sample SD across 6 seed means",
+  "paired_gain": "fine_tuned minus scratch for same seed/scenario/i/j",
+  "scenario_gain": "mean of 10 paired forecast gains, separately for 6x41 scenario records and across-seed 41 scenarios",
+  "negative_transfer": "scenario average gain < 0; export all cases",
+  "zero_shot_failure": "compare every seed to corrected persistence; distinguish all-seed from average-only failure",
+  "fine_tuning_improvement": "report mean gain and direction for every seed; original 6/6 claim requires all six positive",
+  "low_data": "not established by N=33 primary; old N5/10 cannot be reused",
+  "additional_experiments": "evaluate R1-2/R1-5 need only; no scaling, threshold, low-data training in this run",
+  "no_optional_stopping": "complete original epochs and 6 seeds; no selected extra seeds/epochs"
+}

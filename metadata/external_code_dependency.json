@@ -1,0 +1,7 @@
+{
+  "path": "/home/yssongvd/pyopmspe11/src/pyopmspe11/visualization/data.py",
+  "sha256": "580e758c0bd193774f0bef00140af4cb91078f6c8e47d902f801b76f343bc3de",
+  "reason": "reporting-grid mapping imported by archived audit.py; external library not vendored",
+  "code_included": false,
+  "raw_simulations_included": false
+}

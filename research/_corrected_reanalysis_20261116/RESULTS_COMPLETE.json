@@ -1,0 +1,22 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    42,
+    44,
+    55
+  ],
+  "training_jobs": 18,
+  "epochs": 510,
+  "learned_test_rows": 9840,
+  "persistence_rows": 410,
+  "paired_forecast_rows": 2460,
+  "seed_scenario_rows": 246,
+  "target_scenarios": 41,
+  "input_files_unchanged": 2070,
+  "selected_checkpoints_unchanged_after_freeze": 18,
+  "low_data_trained": false,
+  "sensitivity_trained": false,
+  "complete_unix": 1794819204.729633
+}

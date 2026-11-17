@@ -1,0 +1,13 @@
+case,scenario,snapshot,time,unit,restart_index,raw_UNRST_mismatch_pixels,stored_mask_vs_raw_threshold_mismatch_pixels,plume_pixels,low_saturation_plume_pixels_0001_to_0097,max_raw_delta_sgas,valid_reporting_pixels,orientation
+spe11a,S000,0,0.0,h,0,0,0,0,0,0.0,31007,ascending z elevation; row zero bottom; no flip/rotation
+spe11a,S000,1,1.0,h,2,0,0,733,48,0.8785404562950134,31007,ascending z elevation; row zero bottom; no flip/rotation
+spe11a,S000,2,2.0,h,4,0,0,1249,46,0.8799741864204407,31007,ascending z elevation; row zero bottom; no flip/rotation
+spe11a,S000,3,3.0,h,6,0,0,2015,112,0.8810068368911743,31007,ascending z elevation; row zero bottom; no flip/rotation
+spe11a,S000,4,4.0,h,8,0,0,2629,90,0.8992111086845398,31007,ascending z elevation; row zero bottom; no flip/rotation
+spe11a,S000,5,5.0,h,10,0,0,3210,174,0.8999069929122925,31007,ascending z elevation; row zero bottom; no flip/rotation
+spe11b,S000,0,0.0,yr,0,0,0,0,0,0.0,25200,ascending z elevation; row zero bottom; no flip/rotation
+spe11b,S000,1,5.0,yr,1,0,0,272,56,0.7184104323387146,25200,ascending z elevation; row zero bottom; no flip/rotation
+spe11b,S000,2,10.0,yr,2,0,0,490,53,0.7736700177192688,25200,ascending z elevation; row zero bottom; no flip/rotation
+spe11b,S000,3,15.0,yr,3,0,0,686,95,0.8351750373840332,25200,ascending z elevation; row zero bottom; no flip/rotation
+spe11b,S000,4,20.0,yr,4,0,0,880,152,0.8514735102653503,25200,ascending z elevation; row zero bottom; no flip/rotation
+spe11b,S000,5,25.0,yr,5,0,0,1048,138,0.8580789566040039,25200,ascending z elevation; row zero bottom; no flip/rotation

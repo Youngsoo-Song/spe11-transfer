@@ -1,0 +1,35 @@
+{
+  "metrics_rows": 9840,
+  "seeds": 6,
+  "selected_models": 18,
+  "epochs": 510,
+  "paired_forecast_rows": 2460,
+  "target_scenarios": 41,
+  "seed_scenario_rows": 246,
+  "negative_seed_scenario_rows": 61,
+  "passed": [
+    "unique evaluation keys",
+    "finite bounded IoU",
+    "Dice-IoU algebra",
+    "pair/scenario/seed gain consistency",
+    "all negative cases exported",
+    "414 corrected NPZ hashes unchanged",
+    "2070 input hashes unchanged",
+    "frozen selected checkpoint hashes unchanged"
+  ],
+  "model_evaluation_repeated_for_QA": false,
+  "reports": {
+    "CORRECTED_RESULTS.md": {
+      "bytes": 6765,
+      "sha256": "68cbdd86a4419b837277ae6016ac939ebb18df5d9b7d87c5fb6c2b5bae456659"
+    },
+    "legacy_vs_corrected.csv": {
+      "bytes": 9278,
+      "sha256": "3ab2f0fd85b23b5a7da53b3b50f5e099f82c8fd7075c4cc67a5b3d0626911f55"
+    },
+    "NEXT_DECISION.md": {
+      "bytes": 4164,
+      "sha256": "27566e7be20f1d732347d7fe40bb8cb2740cb8377eed418c042a0ef55a2f4e5a"
+    }
+  }
+}

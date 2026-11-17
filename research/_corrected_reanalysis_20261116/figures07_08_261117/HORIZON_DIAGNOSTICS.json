@@ -1,0 +1,56 @@
+{
+  "monotonicity": {
+    "persistence": {
+      "seed_monotone_decreasing": {
+        "-1": true
+      },
+      "six_seed_mean_monotone_decreasing": true
+    },
+    "zero_shot": {
+      "seed_monotone_decreasing": {
+        "11": true,
+        "22": true,
+        "33": true,
+        "42": true,
+        "44": true,
+        "55": true
+      },
+      "six_seed_mean_monotone_decreasing": true
+    },
+    "scratch": {
+      "seed_monotone_decreasing": {
+        "11": true,
+        "22": true,
+        "33": true,
+        "42": true,
+        "44": true,
+        "55": true
+      },
+      "six_seed_mean_monotone_decreasing": true
+    },
+    "fine_tuning": {
+      "seed_monotone_decreasing": {
+        "11": true,
+        "22": true,
+        "33": true,
+        "42": true,
+        "44": true,
+        "55": true
+      },
+      "six_seed_mean_monotone_decreasing": true
+    }
+  },
+  "mean_finetune_minus_scratch_by_lead": {
+    "5": 0.005583987730305329,
+    "10": 0.0059579299071294,
+    "15": 0.006339869726964209,
+    "20": 0.008414567970648212
+  },
+  "fine_tuning_mean_above_scratch_at_every_horizon": true,
+  "positive_finetuning_seeds_by_lead": {
+    "5": 6,
+    "10": 5,
+    "15": 5,
+    "20": 4
+  }
+}

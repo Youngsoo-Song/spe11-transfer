@@ -1,0 +1,124 @@
+{
+  "revision_date": "2026-11-17",
+  "scenario": "S000",
+  "figures": [
+    "261116_Fig02_corrected_equal_panels",
+    "261116_Fig03_corrected_equal_panels"
+  ],
+  "figure_inches": [
+    [
+      14.8,
+      5.6
+    ],
+    [
+      11.4,
+      6.85
+    ]
+  ],
+  "panel_inches": [
+    [
+      2.01,
+      1.4618181818181817
+    ],
+    [
+      3.08,
+      1.822485207100592
+    ]
+  ],
+  "measured_panel_inches": {
+    "261116_Fig02_corrected_equal_panels": [
+      [
+        2.0099999999999993,
+        1.4618181818181812
+      ],
+      [
+        2.01,
+        1.4618181818181812
+      ],
+      [
+        2.009999999999999,
+        1.4618181818181812
+      ],
+      [
+        2.01,
+        1.4618181818181812
+      ],
+      [
+        2.01,
+        1.4618181818181812
+      ],
+      [
+        2.01,
+        1.4618181818181812
+      ],
+      [
+        2.0099999999999993,
+        1.461818181818182
+      ],
+      [
+        2.01,
+        1.461818181818182
+      ],
+      [
+        2.009999999999999,
+        1.461818181818182
+      ],
+      [
+        2.01,
+        1.461818181818182
+      ],
+      [
+        2.01,
+        1.461818181818182
+      ],
+      [
+        2.01,
+        1.461818181818182
+      ]
+    ],
+    "261116_Fig03_corrected_equal_panels": [
+      [
+        3.08,
+        1.8224852071005926
+      ],
+      [
+        3.08,
+        1.8224852071005926
+      ],
+      [
+        3.080000000000001,
+        1.8224852071005926
+      ],
+      [
+        3.08,
+        1.8224852071005915
+      ],
+      [
+        3.08,
+        1.8224852071005915
+      ],
+      [
+        3.080000000000001,
+        1.8224852071005915
+      ]
+    ]
+  },
+  "display": "equal rectangular A/B panel boxes; physical aspect ratios not preserved",
+  "orientation": "origin=lower, ascending elevation; unchanged arrays; no flips/rotation",
+  "threshold": 0.001,
+  "all_mask_mismatch_pixels": 0,
+  "source_sha256": {
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11a/S000.npz": "393950a4d157b894a56ae3253999e502336baa7538bb60d730bca7ab447dc77d",
+    "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure/spe11b/S000.npz": "21d943386730e851e76bf0b973d60b1a095256a41d2a5e4c93206b5986c49230"
+  },
+  "prior_provenance_path": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/methods_figures_261116/figure_provenance.json",
+  "prior_provenance_sha256": "d457bbcccc1a1855090dc36973978b893770543000b4a6dfe85b14a87c4b8cd2",
+  "code_sha256": "dc58e7e2839d34d29af5eac72727b6a0eac909c4ffca6d84375bd1a6e02ee6b1",
+  "no_model_or_OPM_execution": true,
+  "generated_sha256": {
+    "261116_Fig02_corrected_equal_panels.png": "855cc38323aa8cfc38687299863fd3dfe1d959266836e6868e3af55e223a8841",
+    "261116_Fig02_corrected_equal_panels.pdf": "e3e451c792d0bdf3fb3b39b44f2a711830286502440a0f9505fd36f4a43ee525",
+    "261116_Fig03_corrected_equal_panels.png": "e403cecdeebf1fc21d7a2acadb6bcd51655f0eda9ba4ece512f9af723e8cdfdb",
+    "261116_Fig03_corrected_equal_panels.pdf": "594a5a0e90f381b92f40c2ae151fabd47c4f5f9a569f6f4ae227478da694f6c5"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "dataset_version": "/home/yssongvd/opm_runs/spe11_crossscale_project/_corrected_reanalysis_20261116/dataset_v1_raw_sgas_waterpressure",
+  "domain_scenario_pairs": 414,
+  "snapshots": 2484,
+  "primary_threshold": 0.001,
+  "sensitivity_thresholds": [
+    0.01,
+    0.05
+  ],
+  "legacy_threshold": 0.097,
+  "training_dynamic_channels": 3,
+  "final_model_channels": 11,
+  "raw_dtype": "float64, NaN outside native active mapping",
+  "training_dtype": "float32, zero fill as legacy",
+  "pressure_formula": "(PRESSURE-PCGW)*1e5 Pa; delta formed in float64 before one float32 cast",
+  "xco2": "legacy X[:,2] retained exactly to isolate authorized SGAS/pressure corrections",
+  "normalization": "original observed-image maxabs for pressure and XCO2; no fitted statistics",
+  "index_sha256": "b10765147ff29f37249b95b3170d5cf96d1a64f8a383576ce296ddfd00d93220",
+  "matrix_sha256": "4a3eadb7efc1137f5da6b5a828e204670a0ad38bb02a2747b1daf2629163054c",
+  "prepare_script_sha256": "e1c2f291cdc0c5af693e6f16e5141f6c7ae7cd93240e0fd9a488bc45bb2e9d8d",
+  "elapsed_seconds": 67.7239511013031
+}

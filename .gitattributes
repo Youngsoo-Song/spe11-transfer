@@ -1,0 +1,4 @@
+* -text
+# Research snapshot bytes and protocol SHA-256 must survive Windows/Linux checkout.
+# No automatic CRLF/LF conversion is applied to the archived files.
+
